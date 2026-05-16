@@ -18,21 +18,7 @@ This project implements **SARSA (State-Action-Reward-State-Action)** — an **on
 
 Unlike Q-Learning (off-policy), SARSA accounts for the agent's own exploratory behavior during training, causing it to learn a **safer path** away from the cliff edge — even if it's slightly longer. This is the fundamental difference between on-policy and off-policy RL.
 
----
 
-## 📂 Environment
-
-| Property | Value |
-|:---|:---|
-| Environment | `CliffWalking-v1` (Gymnasium) |
-| Grid Size | 4 rows × 12 columns = **48 states** |
-| Action Space | 4 discrete actions (Up, Down, Left, Right) |
-| Start State | Bottom-left corner |
-| Goal State | Bottom-right corner |
-| Cliff Penalty | **-100** per step into cliff |
-| Step Penalty | **-1** per normal step |
-
----
 
 ## 🔄 Pipeline Workflow
 
